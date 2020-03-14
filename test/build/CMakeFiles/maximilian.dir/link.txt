@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/maximilian.dir/main.cpp.o CMakeFiles/maximilian.dir/player.cpp.o CMakeFiles/maximilian.dir/RtAudio.cpp.o CMakeFiles/maximilian.dir/home/fabri/ProyectosCPP/generators/src/maximilian.cpp.o  -o maximilian -lpthread -lasound 
