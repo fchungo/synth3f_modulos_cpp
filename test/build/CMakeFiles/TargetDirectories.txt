@@ -1,3 +1,0 @@
-/home/fabri/ProyectosCPP/generators/test/build/CMakeFiles/rebuild_cache.dir
-/home/fabri/ProyectosCPP/generators/test/build/CMakeFiles/maximilian.dir
-/home/fabri/ProyectosCPP/generators/test/build/CMakeFiles/edit_cache.dir
