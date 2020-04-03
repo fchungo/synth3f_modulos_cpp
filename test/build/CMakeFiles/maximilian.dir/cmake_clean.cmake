@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/maximilian.dir/main.cpp.o"
-  "CMakeFiles/maximilian.dir/player.cpp.o"
-  "CMakeFiles/maximilian.dir/RtAudio.cpp.o"
+  "CMakeFiles/maximilian.dir/classTest.cpp.o"
   "CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o"
+  "CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o"
   "maximilian.pdb"
   "maximilian"
 )

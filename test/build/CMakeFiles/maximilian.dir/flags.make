@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -std=gnu++1z
 
 CXX_DEFINES = -D__LINUX_ALSA__
 
-CXX_INCLUDES = -I/home/fabri/git/synth3f_modulos_cpp/test/../src -I/home/fabri/git/synth3f_modulos_cpp/test/../src/libs 
+CXX_INCLUDES = -I/home/fabri/git/synth3f_modulos_cpp/test/../src -I/home/fabri/git/synth3f_modulos_cpp/test/../src/libs -I/home/fabri/git/synth3f_modulos_cpp/test/../src/modules 
 

@@ -123,32 +123,32 @@ maximilian/fast:
 	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/build
 .PHONY : maximilian/fast
 
-RtAudio.o: RtAudio.cpp.o
+classTest.o: classTest.cpp.o
 
-.PHONY : RtAudio.o
+.PHONY : classTest.o
 
 # target to build an object file
-RtAudio.cpp.o:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/RtAudio.cpp.o
-.PHONY : RtAudio.cpp.o
+classTest.cpp.o:
+	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/classTest.cpp.o
+.PHONY : classTest.cpp.o
 
-RtAudio.i: RtAudio.cpp.i
+classTest.i: classTest.cpp.i
 
-.PHONY : RtAudio.i
+.PHONY : classTest.i
 
 # target to preprocess a source file
-RtAudio.cpp.i:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/RtAudio.cpp.i
-.PHONY : RtAudio.cpp.i
+classTest.cpp.i:
+	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/classTest.cpp.i
+.PHONY : classTest.cpp.i
 
-RtAudio.s: RtAudio.cpp.s
+classTest.s: classTest.cpp.s
 
-.PHONY : RtAudio.s
+.PHONY : classTest.s
 
 # target to generate assembly for a file
-RtAudio.cpp.s:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/RtAudio.cpp.s
-.PHONY : RtAudio.cpp.s
+classTest.cpp.s:
+	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/classTest.cpp.s
+.PHONY : classTest.cpp.s
 
 home/fabri/git/synth3f_modulos_cpp/src/maximilian.o: home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
 
@@ -177,59 +177,32 @@ home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s:
 	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s
 .PHONY : home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s
 
-main.o: main.cpp.o
+home/fabri/git/synth3f_modulos_cpp/src/modules/vco.o: home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-player.o: player.cpp.o
-
-.PHONY : player.o
+.PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.o
 
 # target to build an object file
-player.cpp.o:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/player.cpp.o
-.PHONY : player.cpp.o
+home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o:
+	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
+.PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
 
-player.i: player.cpp.i
+home/fabri/git/synth3f_modulos_cpp/src/modules/vco.i: home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i
 
-.PHONY : player.i
+.PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.i
 
 # target to preprocess a source file
-player.cpp.i:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/player.cpp.i
-.PHONY : player.cpp.i
+home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i:
+	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i
+.PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i
 
-player.s: player.cpp.s
+home/fabri/git/synth3f_modulos_cpp/src/modules/vco.s: home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s
 
-.PHONY : player.s
+.PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.s
 
 # target to generate assembly for a file
-player.cpp.s:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/player.cpp.s
-.PHONY : player.cpp.s
+home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s:
+	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s
+.PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s
 
 # Help Target
 help:
@@ -240,18 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... maximilian"
 	@echo "... edit_cache"
-	@echo "... RtAudio.o"
-	@echo "... RtAudio.i"
-	@echo "... RtAudio.s"
+	@echo "... classTest.o"
+	@echo "... classTest.i"
+	@echo "... classTest.s"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/maximilian.o"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/maximilian.i"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/maximilian.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... player.o"
-	@echo "... player.i"
-	@echo "... player.s"
+	@echo "... home/fabri/git/synth3f_modulos_cpp/src/modules/vco.o"
+	@echo "... home/fabri/git/synth3f_modulos_cpp/src/modules/vco.i"
+	@echo "... home/fabri/git/synth3f_modulos_cpp/src/modules/vco.s"
 .PHONY : help
 
 

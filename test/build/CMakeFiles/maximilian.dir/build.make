@@ -57,81 +57,33 @@ include CMakeFiles/maximilian.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/maximilian.dir/flags.make
 
-CMakeFiles/maximilian.dir/main.cpp.o: CMakeFiles/maximilian.dir/flags.make
-CMakeFiles/maximilian.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/maximilian.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maximilian.dir/main.cpp.o -c /home/fabri/git/synth3f_modulos_cpp/test/main.cpp
+CMakeFiles/maximilian.dir/classTest.cpp.o: CMakeFiles/maximilian.dir/flags.make
+CMakeFiles/maximilian.dir/classTest.cpp.o: ../classTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/maximilian.dir/classTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maximilian.dir/classTest.cpp.o -c /home/fabri/git/synth3f_modulos_cpp/test/classTest.cpp
 
-CMakeFiles/maximilian.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/maximilian.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabri/git/synth3f_modulos_cpp/test/main.cpp > CMakeFiles/maximilian.dir/main.cpp.i
+CMakeFiles/maximilian.dir/classTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/maximilian.dir/classTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabri/git/synth3f_modulos_cpp/test/classTest.cpp > CMakeFiles/maximilian.dir/classTest.cpp.i
 
-CMakeFiles/maximilian.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maximilian.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabri/git/synth3f_modulos_cpp/test/main.cpp -o CMakeFiles/maximilian.dir/main.cpp.s
+CMakeFiles/maximilian.dir/classTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maximilian.dir/classTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabri/git/synth3f_modulos_cpp/test/classTest.cpp -o CMakeFiles/maximilian.dir/classTest.cpp.s
 
-CMakeFiles/maximilian.dir/main.cpp.o.requires:
+CMakeFiles/maximilian.dir/classTest.cpp.o.requires:
 
-.PHONY : CMakeFiles/maximilian.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/maximilian.dir/classTest.cpp.o.requires
 
-CMakeFiles/maximilian.dir/main.cpp.o.provides: CMakeFiles/maximilian.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/maximilian.dir/main.cpp.o.provides
+CMakeFiles/maximilian.dir/classTest.cpp.o.provides: CMakeFiles/maximilian.dir/classTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/classTest.cpp.o.provides.build
+.PHONY : CMakeFiles/maximilian.dir/classTest.cpp.o.provides
 
-CMakeFiles/maximilian.dir/main.cpp.o.provides.build: CMakeFiles/maximilian.dir/main.cpp.o
-
-
-CMakeFiles/maximilian.dir/player.cpp.o: CMakeFiles/maximilian.dir/flags.make
-CMakeFiles/maximilian.dir/player.cpp.o: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/maximilian.dir/player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maximilian.dir/player.cpp.o -c /home/fabri/git/synth3f_modulos_cpp/test/player.cpp
-
-CMakeFiles/maximilian.dir/player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/maximilian.dir/player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabri/git/synth3f_modulos_cpp/test/player.cpp > CMakeFiles/maximilian.dir/player.cpp.i
-
-CMakeFiles/maximilian.dir/player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maximilian.dir/player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabri/git/synth3f_modulos_cpp/test/player.cpp -o CMakeFiles/maximilian.dir/player.cpp.s
-
-CMakeFiles/maximilian.dir/player.cpp.o.requires:
-
-.PHONY : CMakeFiles/maximilian.dir/player.cpp.o.requires
-
-CMakeFiles/maximilian.dir/player.cpp.o.provides: CMakeFiles/maximilian.dir/player.cpp.o.requires
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/player.cpp.o.provides.build
-.PHONY : CMakeFiles/maximilian.dir/player.cpp.o.provides
-
-CMakeFiles/maximilian.dir/player.cpp.o.provides.build: CMakeFiles/maximilian.dir/player.cpp.o
-
-
-CMakeFiles/maximilian.dir/RtAudio.cpp.o: CMakeFiles/maximilian.dir/flags.make
-CMakeFiles/maximilian.dir/RtAudio.cpp.o: ../RtAudio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/maximilian.dir/RtAudio.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maximilian.dir/RtAudio.cpp.o -c /home/fabri/git/synth3f_modulos_cpp/test/RtAudio.cpp
-
-CMakeFiles/maximilian.dir/RtAudio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/maximilian.dir/RtAudio.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabri/git/synth3f_modulos_cpp/test/RtAudio.cpp > CMakeFiles/maximilian.dir/RtAudio.cpp.i
-
-CMakeFiles/maximilian.dir/RtAudio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maximilian.dir/RtAudio.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabri/git/synth3f_modulos_cpp/test/RtAudio.cpp -o CMakeFiles/maximilian.dir/RtAudio.cpp.s
-
-CMakeFiles/maximilian.dir/RtAudio.cpp.o.requires:
-
-.PHONY : CMakeFiles/maximilian.dir/RtAudio.cpp.o.requires
-
-CMakeFiles/maximilian.dir/RtAudio.cpp.o.provides: CMakeFiles/maximilian.dir/RtAudio.cpp.o.requires
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/RtAudio.cpp.o.provides.build
-.PHONY : CMakeFiles/maximilian.dir/RtAudio.cpp.o.provides
-
-CMakeFiles/maximilian.dir/RtAudio.cpp.o.provides.build: CMakeFiles/maximilian.dir/RtAudio.cpp.o
+CMakeFiles/maximilian.dir/classTest.cpp.o.provides.build: CMakeFiles/maximilian.dir/classTest.cpp.o
 
 
 CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o: CMakeFiles/maximilian.dir/flags.make
 CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o: /home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o -c /home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp
 
 CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.i: cmake_force
@@ -153,23 +105,45 @@ CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.
 CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o.provides.build: CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
 
 
+CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o: CMakeFiles/maximilian.dir/flags.make
+CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o: /home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o -c /home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp
+
+CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp > CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i
+
+CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp -o CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s
+
+CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o.requires:
+
+.PHONY : CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o.requires
+
+CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o.provides: CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o.requires
+	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o.provides.build
+.PHONY : CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o.provides
+
+CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o.provides.build: CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
+
+
 # Object files for target maximilian
 maximilian_OBJECTS = \
-"CMakeFiles/maximilian.dir/main.cpp.o" \
-"CMakeFiles/maximilian.dir/player.cpp.o" \
-"CMakeFiles/maximilian.dir/RtAudio.cpp.o" \
-"CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o"
+"CMakeFiles/maximilian.dir/classTest.cpp.o" \
+"CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o" \
+"CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o"
 
 # External object files for target maximilian
 maximilian_EXTERNAL_OBJECTS =
 
-maximilian: CMakeFiles/maximilian.dir/main.cpp.o
-maximilian: CMakeFiles/maximilian.dir/player.cpp.o
-maximilian: CMakeFiles/maximilian.dir/RtAudio.cpp.o
+maximilian: CMakeFiles/maximilian.dir/classTest.cpp.o
 maximilian: CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
+maximilian: CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
 maximilian: CMakeFiles/maximilian.dir/build.make
 maximilian: CMakeFiles/maximilian.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable maximilian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable maximilian"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/maximilian.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,10 +151,9 @@ CMakeFiles/maximilian.dir/build: maximilian
 
 .PHONY : CMakeFiles/maximilian.dir/build
 
-CMakeFiles/maximilian.dir/requires: CMakeFiles/maximilian.dir/main.cpp.o.requires
-CMakeFiles/maximilian.dir/requires: CMakeFiles/maximilian.dir/player.cpp.o.requires
-CMakeFiles/maximilian.dir/requires: CMakeFiles/maximilian.dir/RtAudio.cpp.o.requires
+CMakeFiles/maximilian.dir/requires: CMakeFiles/maximilian.dir/classTest.cpp.o.requires
 CMakeFiles/maximilian.dir/requires: CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o.requires
+CMakeFiles/maximilian.dir/requires: CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o.requires
 
 .PHONY : CMakeFiles/maximilian.dir/requires
 

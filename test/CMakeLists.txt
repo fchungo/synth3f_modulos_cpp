@@ -6,8 +6,11 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(../src)
 include_directories(../src/libs)
+include_directories(../src/modules)
 
-add_executable(maximilian main.cpp player.cpp RtAudio.cpp ../src/maximilian.cpp)
+#add_executable(maximilian main.cpp player.cpp RtAudio.cpp ../src/maximilian.cpp)
+add_executable(maximilian classTest.cpp ../src/maximilian.cpp ../src/modules/vco.cpp)
+#add_executable(maximilian classTest.cpp ../src/maximilian.cpp)
 target_compile_options(maximilian PUBLIC -Wall)
 target_link_libraries(maximilian PUBLIC -lpthread)
 

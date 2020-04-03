@@ -35,10 +35,10 @@ double selectMode(int mode){
 	}
 }
 
-void setup() {//some inits
-	srand (time(NULL));
+void setup() {
+	srand (time(NULL));		// random seed
 	std::cout << "Frecuencia: " << freq << std::endl;
-	option = rand() % 5;
+	option = rand() % 5;	// numbers from 0 to 4
 	std::cout << "Waveform selected: " << option << std::endl;
 }
 
