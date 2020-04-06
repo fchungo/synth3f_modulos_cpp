@@ -22,3 +22,8 @@ The oscillators are built on top of **maxilimilian** framework. It provides gene
 ### VCO
 
 Inherits from **maxiOsc** class. 
+
+## Must check
+
+* sampleRate, numFrames, output/audioData must be the same data type and the same value for both Oboe and maximilian frameworks
+* Make a basic audio test rendering the output of a wave generator to Oboe engine
