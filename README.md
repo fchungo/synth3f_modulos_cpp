@@ -15,4 +15,10 @@ Here are the DSP functions and synth modules, written in c++ using de Maximilian
  * VCF
  * MIXER
 
-## 
+## Structure
+
+The oscillators are built on top of **maxilimilian** framework. It provides generators for different waveforms and other functionalities as envelopes, filters, etc..
+
+### VCO
+
+Inherits from **maxiOsc** class. 

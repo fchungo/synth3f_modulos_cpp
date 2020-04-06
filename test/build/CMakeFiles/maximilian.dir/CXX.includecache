@@ -31,6 +31,8 @@ algorithm
 ../../src/modules/vco.h
 maximilian.h
 ../../src/modules/maximilian.h
+string
+-
 
 /home/fabri/git/synth3f_modulos_cpp/src/./libs/stb_vorbis.h
 stdio.h
@@ -73,16 +75,24 @@ vco.h
 /home/fabri/git/synth3f_modulos_cpp/src/modules/vco.h
 iostream
 -
+string
+-
 
 /home/fabri/git/synth3f_modulos_cpp/src/modules/vco.h
 maximilian.h
 /home/fabri/git/synth3f_modulos_cpp/src/modules/maximilian.h
+string
+-
 
 /home/fabri/git/synth3f_modulos_cpp/test/classTest.cpp
 stdlib.h
+-
+iostream
 -
 maximilian.h
 /home/fabri/git/synth3f_modulos_cpp/test/maximilian.h
 vco.h
 /home/fabri/git/synth3f_modulos_cpp/test/vco.h
+string
+-
 
