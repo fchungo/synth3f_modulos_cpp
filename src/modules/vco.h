@@ -13,6 +13,7 @@ public:
 	void showParameters();
 	void setShape(std::string shape);
 	std::string getShape();
+	void generateWave(std::string shape);
 
 private:
 
@@ -30,4 +31,5 @@ private:
 	double vcoAmplitude;
 	double vcoFrequency;
 	std::string vcoShape;
+	float duty;
 };
