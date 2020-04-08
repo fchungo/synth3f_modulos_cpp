@@ -111,44 +111,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named maximilian
+# Target rules for targets named maximilianOsc
 
 # Build rule for target.
-maximilian: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 maximilian
-.PHONY : maximilian
+maximilianOsc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maximilianOsc
+.PHONY : maximilianOsc
 
 # fast build rule for target.
-maximilian/fast:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/build
-.PHONY : maximilian/fast
+maximilianOsc/fast:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/build
+.PHONY : maximilianOsc/fast
 
-classTest.o: classTest.cpp.o
+#=============================================================================
+# Target rules for targets named maximilianVCO
 
-.PHONY : classTest.o
+# Build rule for target.
+maximilianVCO: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maximilianVCO
+.PHONY : maximilianVCO
+
+# fast build rule for target.
+maximilianVCO/fast:
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/build
+.PHONY : maximilianVCO/fast
+
+RtAudio.o: RtAudio.cpp.o
+
+.PHONY : RtAudio.o
 
 # target to build an object file
-classTest.cpp.o:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/classTest.cpp.o
-.PHONY : classTest.cpp.o
+RtAudio.cpp.o:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/RtAudio.cpp.o
+.PHONY : RtAudio.cpp.o
 
-classTest.i: classTest.cpp.i
+RtAudio.i: RtAudio.cpp.i
 
-.PHONY : classTest.i
+.PHONY : RtAudio.i
 
 # target to preprocess a source file
-classTest.cpp.i:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/classTest.cpp.i
-.PHONY : classTest.cpp.i
+RtAudio.cpp.i:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/RtAudio.cpp.i
+.PHONY : RtAudio.cpp.i
 
-classTest.s: classTest.cpp.s
+RtAudio.s: RtAudio.cpp.s
 
-.PHONY : classTest.s
+.PHONY : RtAudio.s
 
 # target to generate assembly for a file
-classTest.cpp.s:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/classTest.cpp.s
-.PHONY : classTest.cpp.s
+RtAudio.cpp.s:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/RtAudio.cpp.s
+.PHONY : RtAudio.cpp.s
 
 home/fabri/git/synth3f_modulos_cpp/src/maximilian.o: home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
 
@@ -156,7 +169,8 @@ home/fabri/git/synth3f_modulos_cpp/src/maximilian.o: home/fabri/git/synth3f_modu
 
 # target to build an object file
 home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
 .PHONY : home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
 
 home/fabri/git/synth3f_modulos_cpp/src/maximilian.i: home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.i
@@ -165,7 +179,8 @@ home/fabri/git/synth3f_modulos_cpp/src/maximilian.i: home/fabri/git/synth3f_modu
 
 # target to preprocess a source file
 home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.i:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.i
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.i
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.i
 .PHONY : home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.i
 
 home/fabri/git/synth3f_modulos_cpp/src/maximilian.s: home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s
@@ -174,7 +189,8 @@ home/fabri/git/synth3f_modulos_cpp/src/maximilian.s: home/fabri/git/synth3f_modu
 
 # target to generate assembly for a file
 home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s
 .PHONY : home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.s
 
 home/fabri/git/synth3f_modulos_cpp/src/modules/vco.o: home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
@@ -183,7 +199,7 @@ home/fabri/git/synth3f_modulos_cpp/src/modules/vco.o: home/fabri/git/synth3f_mod
 
 # target to build an object file
 home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
 .PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o
 
 home/fabri/git/synth3f_modulos_cpp/src/modules/vco.i: home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i
@@ -192,7 +208,7 @@ home/fabri/git/synth3f_modulos_cpp/src/modules/vco.i: home/fabri/git/synth3f_mod
 
 # target to preprocess a source file
 home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i
 .PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.i
 
 home/fabri/git/synth3f_modulos_cpp/src/modules/vco.s: home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s
@@ -201,8 +217,89 @@ home/fabri/git/synth3f_modulos_cpp/src/modules/vco.s: home/fabri/git/synth3f_mod
 
 # target to generate assembly for a file
 home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s
 .PHONY : home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.s
+
+maxiOscTest.o: maxiOscTest.cpp.o
+
+.PHONY : maxiOscTest.o
+
+# target to build an object file
+maxiOscTest.cpp.o:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/maxiOscTest.cpp.o
+.PHONY : maxiOscTest.cpp.o
+
+maxiOscTest.i: maxiOscTest.cpp.i
+
+.PHONY : maxiOscTest.i
+
+# target to preprocess a source file
+maxiOscTest.cpp.i:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/maxiOscTest.cpp.i
+.PHONY : maxiOscTest.cpp.i
+
+maxiOscTest.s: maxiOscTest.cpp.s
+
+.PHONY : maxiOscTest.s
+
+# target to generate assembly for a file
+maxiOscTest.cpp.s:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/maxiOscTest.cpp.s
+.PHONY : maxiOscTest.cpp.s
+
+player.o: player.cpp.o
+
+.PHONY : player.o
+
+# target to build an object file
+player.cpp.o:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/player.cpp.o
+.PHONY : player.cpp.o
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/player.cpp.s
+.PHONY : player.cpp.s
+
+vcoTest.o: vcoTest.cpp.o
+
+.PHONY : vcoTest.o
+
+# target to build an object file
+vcoTest.cpp.o:
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/vcoTest.cpp.o
+.PHONY : vcoTest.cpp.o
+
+vcoTest.i: vcoTest.cpp.i
+
+.PHONY : vcoTest.i
+
+# target to preprocess a source file
+vcoTest.cpp.i:
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/vcoTest.cpp.i
+.PHONY : vcoTest.cpp.i
+
+vcoTest.s: vcoTest.cpp.s
+
+.PHONY : vcoTest.s
+
+# target to generate assembly for a file
+vcoTest.cpp.s:
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/vcoTest.cpp.s
+.PHONY : vcoTest.cpp.s
 
 # Help Target
 help:
@@ -211,17 +308,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... maximilian"
 	@echo "... edit_cache"
-	@echo "... classTest.o"
-	@echo "... classTest.i"
-	@echo "... classTest.s"
+	@echo "... maximilianOsc"
+	@echo "... maximilianVCO"
+	@echo "... RtAudio.o"
+	@echo "... RtAudio.i"
+	@echo "... RtAudio.s"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/maximilian.o"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/maximilian.i"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/maximilian.s"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/modules/vco.o"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/modules/vco.i"
 	@echo "... home/fabri/git/synth3f_modulos_cpp/src/modules/vco.s"
+	@echo "... maxiOscTest.o"
+	@echo "... maxiOscTest.i"
+	@echo "... maxiOscTest.s"
+	@echo "... player.o"
+	@echo "... player.i"
+	@echo "... player.s"
+	@echo "... vcoTest.o"
+	@echo "... vcoTest.i"
+	@echo "... vcoTest.s"
 .PHONY : help
 
 

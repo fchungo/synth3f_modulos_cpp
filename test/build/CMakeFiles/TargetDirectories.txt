@@ -1,3 +1,4 @@
 /home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/rebuild_cache.dir
-/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/maximilian.dir
 /home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/edit_cache.dir
+/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/maximilianOsc.dir
+/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/maximilianVCO.dir

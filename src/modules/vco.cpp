@@ -3,12 +3,12 @@
 #include <string>
 
 VCO::VCO()	
-	{
-		vcoAmplitude = 0.2;
-		vcoFrequency = 440.0;
-		vcoShape = "undefined";
-		duty = 0.5;
-	}
+{
+	vcoAmplitude = 0.2;
+	vcoFrequency = 440.0;
+	vcoShape = "undefined";
+	duty = 0.5;
+}
 
 VCO::~VCO(){}
 
@@ -48,5 +48,12 @@ void VCO::generateWave(std::string shape, double &outputValue)
 		case "pulse":
 			outputValue = pulse(freq, duty);
 			break;
+		case "undefined":
+			break;
 	}
+}
+
+double getOutput()
+{
+	return output;
 }

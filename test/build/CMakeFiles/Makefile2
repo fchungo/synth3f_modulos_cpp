@@ -60,39 +60,76 @@ CMAKE_SOURCE_DIR = /home/fabri/git/synth3f_modulos_cpp/test
 CMAKE_BINARY_DIR = /home/fabri/git/synth3f_modulos_cpp/test/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/maximilian.dir
+# Target rules for target CMakeFiles/maximilianOsc.dir
 
 # All Build rule for target.
-CMakeFiles/maximilian.dir/all:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/depend
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=1,2,3,4 "Built target maximilian"
-.PHONY : CMakeFiles/maximilian.dir/all
+CMakeFiles/maximilianOsc.dir/all:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/depend
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target maximilianOsc"
+.PHONY : CMakeFiles/maximilianOsc.dir/all
 
 # Include target in all.
-all: CMakeFiles/maximilian.dir/all
+all: CMakeFiles/maximilianOsc.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/maximilian.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maximilian.dir/all
+CMakeFiles/maximilianOsc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maximilianOsc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles 0
-.PHONY : CMakeFiles/maximilian.dir/rule
+.PHONY : CMakeFiles/maximilianOsc.dir/rule
 
 # Convenience name for target.
-maximilian: CMakeFiles/maximilian.dir/rule
+maximilianOsc: CMakeFiles/maximilianOsc.dir/rule
 
-.PHONY : maximilian
-
-# clean rule for target.
-CMakeFiles/maximilian.dir/clean:
-	$(MAKE) -f CMakeFiles/maximilian.dir/build.make CMakeFiles/maximilian.dir/clean
-.PHONY : CMakeFiles/maximilian.dir/clean
+.PHONY : maximilianOsc
 
 # clean rule for target.
-clean: CMakeFiles/maximilian.dir/clean
+CMakeFiles/maximilianOsc.dir/clean:
+	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/clean
+.PHONY : CMakeFiles/maximilianOsc.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/maximilianOsc.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/maximilianVCO.dir
+
+# All Build rule for target.
+CMakeFiles/maximilianVCO.dir/all:
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/depend
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles --progress-num=6,7,8,9 "Built target maximilianVCO"
+.PHONY : CMakeFiles/maximilianVCO.dir/all
+
+# Include target in all.
+all: CMakeFiles/maximilianVCO.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/maximilianVCO.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maximilianVCO.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles 0
+.PHONY : CMakeFiles/maximilianVCO.dir/rule
+
+# Convenience name for target.
+maximilianVCO: CMakeFiles/maximilianVCO.dir/rule
+
+.PHONY : maximilianVCO
+
+# clean rule for target.
+CMakeFiles/maximilianVCO.dir/clean:
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/clean
+.PHONY : CMakeFiles/maximilianVCO.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/maximilianVCO.dir/clean
 
 .PHONY : clean
 
