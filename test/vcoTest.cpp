@@ -8,11 +8,9 @@
 
 void vcoTest(VCO &vco)
 {
-	//VCO myVCO;
-	std::string myShape = "sine";
-	//myVCO.sinewave(200.0);
+	//vco.vcoShape myShape = TRIANGLE;
 	vco.showParameters();
-	vco.setShape(myShape);
+	vco.setShape(VCO::TRIANGLE);
 	std::cout << "\nNew shape: " << vco.getShape();
 	std::cout << std::endl;
 }

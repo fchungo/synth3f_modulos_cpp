@@ -2,12 +2,14 @@
 #include <iostream>
 #include <string>
 
-VCO::VCO()	
+//VCO::VCO()	
+VCO::VCO()
 {
 	vcoAmplitude = 0.2;
 	vcoFrequency = 440.0;
-	vcoShape = "undefined";
-	duty = 0.5;
+	vcoShape _vcoShape = SINE;
+	vcoDuty = 0.5;
+	outputValue = 0.0;
 }
 
 VCO::~VCO(){}
@@ -16,44 +18,42 @@ void VCO::showParameters()
 {
 	std::cout << "\nAmplitude: " << vcoAmplitude;
 	std::cout << "\nFrequency: " << vcoFrequency;
-	std::cout << "\nShape: " << vcoShape;
+	std::cout << "\nShape: " << _vcoShape;
 }
 
-void VCO::setShape(std::string shape)
+void VCO::setShape(vcoShape shape)
 {
-	vcoShape = shape;
+	_vcoShape = shape;
 }
 
-std::string VCO::getShape()
+VCO::vcoShape VCO::getShape()
 {
-	return vcoShape;
+	return _vcoShape;
 }
 
-void VCO::generateWave(std::string shape, double &outputValue)
+void VCO::generateWave(vcoShape shape, double &outputValue)
 {
 	switch (shape)
 	{
-		case "sine":
-			outputValue = sinewave(freq);
+		case SINE:
+			outputValue = sinewave(vcoFrequency);
 			break;
-		case "saw":
-			outputValue = sawn(freq);
+		case SAW:
+			outputValue = sawn(vcoFrequency);
 			break;
-		case "saw_inv":
-			outputValue = -sawn(freq);
+		case INV_SAW:
+			outputValue = -sawn(vcoFrequency);
 			break;
-		case "triangle":
-			outputValue = triangle(freq);
+		case TRIANGLE:
+			outputValue = triangle(vcoFrequency);
 			break;
-		case "pulse":
-			outputValue = pulse(freq, duty);
-			break;
-		case "undefined":
+		case PULSE:
+			outputValue = pulse(vcoFrequency, vcoDuty);
 			break;
 	}
 }
 
-double getOutput()
+double VCO::getOutput()
 {
-	return output;
+	return outputValue;
 }

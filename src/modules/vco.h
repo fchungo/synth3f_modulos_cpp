@@ -10,10 +10,19 @@ public:
 	VCO();
 	~VCO();
 
+	enum vcoShape
+	{
+		SINE,
+		SAW,
+		INV_SAW,
+		TRIANGLE,
+		PULSE
+	};
+
 	void showParameters();
-	void setShape(std::string shape);
-	std::string getShape();
-	void generateWave(std::string shape, double &outputValue);
+	void setShape(vcoShape shape);
+	vcoShape getShape();
+	void generateWave(vcoShape shape, double &outputValue);
 	double getOutput();
 
 private:
@@ -31,6 +40,7 @@ private:
 
 	float vcoAmplitude;
 	double vcoFrequency;
-	std::string vcoShape;
-	float duty;
+	vcoShape _vcoShape;
+	float vcoDuty;
+	double outputValue;
 };
