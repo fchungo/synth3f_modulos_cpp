@@ -143,6 +143,7 @@ RtAudio.o: RtAudio.cpp.o
 # target to build an object file
 RtAudio.cpp.o:
 	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/RtAudio.cpp.o
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/RtAudio.cpp.o
 .PHONY : RtAudio.cpp.o
 
 RtAudio.i: RtAudio.cpp.i
@@ -152,6 +153,7 @@ RtAudio.i: RtAudio.cpp.i
 # target to preprocess a source file
 RtAudio.cpp.i:
 	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/RtAudio.cpp.i
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/RtAudio.cpp.i
 .PHONY : RtAudio.cpp.i
 
 RtAudio.s: RtAudio.cpp.s
@@ -161,6 +163,7 @@ RtAudio.s: RtAudio.cpp.s
 # target to generate assembly for a file
 RtAudio.cpp.s:
 	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/RtAudio.cpp.s
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/RtAudio.cpp.s
 .PHONY : RtAudio.cpp.s
 
 home/fabri/git/synth3f_modulos_cpp/src/maximilian.o: home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o
@@ -254,6 +257,7 @@ player.o: player.cpp.o
 # target to build an object file
 player.cpp.o:
 	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/player.cpp.o
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/player.cpp.o
 .PHONY : player.cpp.o
 
 player.i: player.cpp.i
@@ -263,6 +267,7 @@ player.i: player.cpp.i
 # target to preprocess a source file
 player.cpp.i:
 	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/player.cpp.i
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/player.cpp.i
 .PHONY : player.cpp.i
 
 player.s: player.cpp.s
@@ -272,6 +277,7 @@ player.s: player.cpp.s
 # target to generate assembly for a file
 player.cpp.s:
 	$(MAKE) -f CMakeFiles/maximilianOsc.dir/build.make CMakeFiles/maximilianOsc.dir/player.cpp.s
+	$(MAKE) -f CMakeFiles/maximilianVCO.dir/build.make CMakeFiles/maximilianVCO.dir/player.cpp.s
 .PHONY : player.cpp.s
 
 vcoTest.o: vcoTest.cpp.o

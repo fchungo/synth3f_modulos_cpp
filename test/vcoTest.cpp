@@ -28,7 +28,8 @@ void play(double *output)
 	myVCO.generateWave(myVCO.getShape(), vcoOutput);
 	//signal = selectMode(option);
     output[0]=vcoOutput;
-    output[1]=output[0];    
+    output[1]=output[0];
+    s//td::cout vcoOutput;  
 }
 
 /*

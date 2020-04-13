@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/fabri/git/synth3f_modulos_cpp/test/RtAudio.cpp" "/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/maximilianVCO.dir/RtAudio.cpp.o"
   "/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp" "/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/maximilianVCO.dir/home/fabri/git/synth3f_modulos_cpp/src/maximilian.cpp.o"
   "/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp" "/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/maximilianVCO.dir/home/fabri/git/synth3f_modulos_cpp/src/modules/vco.cpp.o"
+  "/home/fabri/git/synth3f_modulos_cpp/test/player.cpp" "/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/maximilianVCO.dir/player.cpp.o"
   "/home/fabri/git/synth3f_modulos_cpp/test/vcoTest.cpp" "/home/fabri/git/synth3f_modulos_cpp/test/build/CMakeFiles/maximilianVCO.dir/vcoTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -9,7 +9,7 @@ include_directories(../src/libs)
 include_directories(../src/modules)
 
 add_executable(maximilianOsc maxiOscTest.cpp player.cpp RtAudio.cpp ../src/maximilian.cpp)
-add_executable(maximilianVCO vcoTest.cpp ../src/maximilian.cpp ../src/modules/vco.cpp)
+add_executable(maximilianVCO vcoTest.cpp player.cpp RtAudio.cpp ../src/maximilian.cpp ../src/modules/vco.cpp)
 target_compile_options(maximilianVCO PUBLIC -Wall)
 target_link_libraries(maximilianVCO PUBLIC -lpthread)
 target_compile_options(maximilianOsc PUBLIC -Wall)
